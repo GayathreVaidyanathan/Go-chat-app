@@ -1,0 +1,6 @@
+@"
+*.exe
+.env
+frontend/node_modules/
+frontend/.next/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
